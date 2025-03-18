@@ -1,0 +1,40 @@
+[2023-06-17 15:34:05] test_n20.py(97) : DEBUG_MODE: False
+[2023-06-17 15:34:05] test_n20.py(98) : USE_CUDA: True, CUDA_DEVICE_NUM: 0
+[2023-06-17 15:34:05] test_n20.py(99) : env_params{'problem_size': 20, 'pomo_size': 20}
+[2023-06-17 15:34:05] test_n20.py(99) : model_params{'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'encoder_layer_num': 6, 'qkv_dim': 16, 'head_num': 8, 'logit_clipping': 10, 'ff_hidden_dim': 512, 'eval_type': 'argmax'}
+[2023-06-17 15:34:05] test_n20.py(99) : tester_params{'use_cuda': True, 'cuda_device_num': 0, 'model_load': {'path': './result/saved_tsp20_model', 'epoch': 510}, 'test_episodes': 100000, 'test_batch_size': 1000, 'augmentation_enable': True, 'aug_factor': 8, 'aug_batch_size': 1000}
+[2023-06-17 15:34:05] test_n20.py(99) : logger_params{'log_file': {'desc': 'test__tsp_n20', 'filename': 'run_log', 'filepath': './result/20230617_163404_test__tsp_n20'}}
+[2023-06-17 15:34:09] TSPTester.py(80) : episode 1000/100000, Elapsed[0.05m], Remain[5.35m], score:3.831, aug_score:3.830
+[2023-06-17 15:34:11] TSPTester.py(80) : episode 2000/100000, Elapsed[0.09m], Remain[4.48m], score:3.830, aug_score:3.829
+[2023-06-17 15:34:13] TSPTester.py(80) : episode 3000/100000, Elapsed[0.13m], Remain[4.18m], score:3.831, aug_score:3.830
+[2023-06-17 15:34:16] TSPTester.py(80) : episode 4000/100000, Elapsed[0.17m], Remain[4.10m], score:3.822, aug_score:3.822
+[2023-06-17 15:34:18] TSPTester.py(80) : episode 5000/100000, Elapsed[0.21m], Remain[3.97m], score:3.841, aug_score:3.840
+[2023-06-17 15:34:20] TSPTester.py(80) : episode 6000/100000, Elapsed[0.25m], Remain[3.86m], score:3.826, aug_score:3.825
+[2023-06-17 15:34:23] TSPTester.py(80) : episode 7000/100000, Elapsed[0.28m], Remain[3.77m], score:3.826, aug_score:3.825
+[2023-06-17 15:34:25] TSPTester.py(80) : episode 8000/100000, Elapsed[0.32m], Remain[3.70m], score:3.837, aug_score:3.836
+[2023-06-17 15:34:27] TSPTester.py(80) : episode 9000/100000, Elapsed[0.36m], Remain[3.63m], score:3.836, aug_score:3.836
+[2023-06-17 15:34:29] TSPTester.py(80) : episode 10000/100000, Elapsed[0.40m], Remain[3.57m], score:3.837, aug_score:3.836
+[2023-06-17 15:34:32] TSPTester.py(80) : episode 11000/100000, Elapsed[0.44m], Remain[3.54m], score:3.822, aug_score:3.821
+[2023-06-17 15:34:34] TSPTester.py(80) : episode 12000/100000, Elapsed[0.48m], Remain[3.50m], score:3.829, aug_score:3.828
+[2023-06-17 15:34:36] TSPTester.py(80) : episode 13000/100000, Elapsed[0.51m], Remain[3.44m], score:3.843, aug_score:3.843
+[2023-06-17 15:34:39] TSPTester.py(80) : episode 14000/100000, Elapsed[0.55m], Remain[3.39m], score:3.831, aug_score:3.830
+[2023-06-17 15:34:41] TSPTester.py(80) : episode 15000/100000, Elapsed[0.59m], Remain[3.34m], score:3.837, aug_score:3.836
+[2023-06-17 15:34:43] TSPTester.py(80) : episode 16000/100000, Elapsed[0.63m], Remain[3.29m], score:3.817, aug_score:3.817
+[2023-06-17 15:34:45] TSPTester.py(80) : episode 17000/100000, Elapsed[0.66m], Remain[3.24m], score:3.842, aug_score:3.841
+[2023-06-17 15:34:48] TSPTester.py(80) : episode 18000/100000, Elapsed[0.70m], Remain[3.19m], score:3.812, aug_score:3.811
+[2023-06-17 15:34:50] TSPTester.py(80) : episode 19000/100000, Elapsed[0.74m], Remain[3.15m], score:3.843, aug_score:3.842
+[2023-06-17 15:34:52] TSPTester.py(80) : episode 20000/100000, Elapsed[0.78m], Remain[3.10m], score:3.836, aug_score:3.835
+[2023-06-17 15:34:54] TSPTester.py(80) : episode 21000/100000, Elapsed[0.81m], Remain[3.06m], score:3.836, aug_score:3.835
+[2023-06-17 15:34:57] TSPTester.py(80) : episode 22000/100000, Elapsed[0.85m], Remain[3.02m], score:3.827, aug_score:3.826
+[2023-06-17 15:34:59] TSPTester.py(80) : episode 23000/100000, Elapsed[0.89m], Remain[2.98m], score:3.836, aug_score:3.835
+[2023-06-17 15:35:01] TSPTester.py(80) : episode 24000/100000, Elapsed[0.93m], Remain[2.94m], score:3.825, aug_score:3.824
+[2023-06-17 15:35:03] TSPTester.py(80) : episode 25000/100000, Elapsed[0.97m], Remain[2.90m], score:3.825, aug_score:3.824
+[2023-06-17 15:35:06] TSPTester.py(80) : episode 26000/100000, Elapsed[1.01m], Remain[2.86m], score:3.836, aug_score:3.835
+[2023-06-17 15:35:08] TSPTester.py(80) : episode 27000/100000, Elapsed[1.04m], Remain[2.82m], score:3.831, aug_score:3.830
+[2023-06-17 15:35:11] TSPTester.py(80) : episode 28000/100000, Elapsed[1.08m], Remain[2.79m], score:3.835, aug_score:3.835
+[2023-06-17 15:35:13] TSPTester.py(80) : episode 29000/100000, Elapsed[1.12m], Remain[2.75m], score:3.816, aug_score:3.815
+[2023-06-17 15:35:15] TSPTester.py(80) : episode 30000/100000, Elapsed[1.16m], Remain[2.72m], score:3.827, aug_score:3.826
+[2023-06-17 15:35:18] TSPTester.py(80) : episode 31000/100000, Elapsed[1.20m], Remain[2.68m], score:3.844, aug_score:3.843
+[2023-06-17 15:35:20] TSPTester.py(80) : episode 32000/100000, Elapsed[1.24m], Remain[2.64m], score:3.835, aug_score:3.834
+[2023-06-17 15:35:22] TSPTester.py(80) : episode 33000/100000, Elapsed[1.28m], Remain[2.60m], score:3.833, aug_score:3.832
+[2023-06-17 15:35:25] TSPTester.py(80) : episode 34000/100000, Elapsed[1.32m], Remain[2.56m], score:3.828, aug_score:3.827

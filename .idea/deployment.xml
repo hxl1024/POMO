@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="huxiaolong@222.201.144.190:50100 password (2)" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="huxiaolong@222.201.144.190:50100 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/huxiaolong/Py3.8+Torch2.0.1/POMO" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="huxiaolong@222.201.144.190:50100 password (2)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/huxiaolong/Py3.8+Torch2.0.1/POMO" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="huxiaolong@222.201.144.190:50102 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/huxiaolong/pycharm/POMO" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
